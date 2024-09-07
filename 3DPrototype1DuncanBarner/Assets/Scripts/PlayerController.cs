@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Duncan Barner
+ * Prototype 1 / Challenge 1
+ * Player movement
+ */
+
 public class PlayerController : MonoBehaviour
 {
 

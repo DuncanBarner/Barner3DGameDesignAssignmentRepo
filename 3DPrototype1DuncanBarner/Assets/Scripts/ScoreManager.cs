@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*
+ * Duncan Barner
+ * Prototype 1 / Challenge 1
+ * Score Manager Functionality
+ */
 
 
 public class ScoreManager : MonoBehaviour

@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Duncan Barner
+ * Prototype 1 / Challenge 1
+ * Camera follow player script
+ */
+
 public class CamFollowPlayer : MonoBehaviour
 {
     //drag the player onto this ref

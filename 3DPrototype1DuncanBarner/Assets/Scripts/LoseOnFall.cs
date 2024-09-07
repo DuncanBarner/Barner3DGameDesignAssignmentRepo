@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Duncan Barner
+ * Prototype 1 / Challenge 1
+ * Game over condition (player falls off the road)
+ */
+
 public class LoseOnFall : MonoBehaviour
 {
     // attach to player
