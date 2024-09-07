@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 /*
  * Duncan Barner
- * Prototype 1 / Challenge 1
+ * LoseOnFall
+ * Prototype 1
  * Game over condition (player falls off the road)
  */
 

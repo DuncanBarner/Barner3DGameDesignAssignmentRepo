@@ -4,7 +4,8 @@ using UnityEngine;
 
 /*
  * Duncan Barner
- * Prototype 1 / Challenge 1
+ * PlayerController
+ * Prototype 1
  * Player movement
  */
 

@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 /*
  * Duncan Barner
- * Prototype 1 / Challenge 1
+ * Prototype 1 
+ * ScoreManager
  * Score Manager Functionality
  */
 

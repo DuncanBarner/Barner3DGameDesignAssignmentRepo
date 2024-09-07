@@ -4,6 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*
+		 * Duncan Barner
+		 * PlaneScoreManager
+		 * Challenge 1
+		 * controls the score manager
+		 */
+
 public class PlaneScoreManager : MonoBehaviour
 {
     public static bool gameOver;

@@ -1,7 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+		 * Duncan Barner
+		 * PlayerControllerX
+		 * Challenge 1
+		 * player movement
+		 */
 public class PlayerControllerX : MonoBehaviour
 {
     public float speed;

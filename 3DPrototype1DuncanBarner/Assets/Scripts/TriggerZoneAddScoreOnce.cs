@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 /*
  * Duncan Barner
- * Prototype 1 / Challenge 1
+ * Prototype 1
+ * TriggerZoneScoreOnce
  * Increments score by 1 if triggerzone not previously triggered
  */
 

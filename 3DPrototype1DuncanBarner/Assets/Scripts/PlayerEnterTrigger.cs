@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 /*
  * Duncan Barner
- * Prototype 1 / Challenge 1
+ * Prototype 1 
+ * PlayerEnterTrigger
  * increments score by 1
  */
 

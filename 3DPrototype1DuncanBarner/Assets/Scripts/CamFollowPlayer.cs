@@ -4,7 +4,8 @@ using UnityEngine;
 
 /*
  * Duncan Barner
- * Prototype 1 / Challenge 1
+ * CamFollowPlayer
+ * Prototype 1
  * Camera follow player script
  */
 

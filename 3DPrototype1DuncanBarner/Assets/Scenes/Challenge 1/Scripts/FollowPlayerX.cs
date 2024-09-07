@@ -1,7 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+		 * Duncan Barner
+		 * FollowPlayerX
+		 * Challenge 1
+		 * Camera follows player
+		 */
 public class FollowPlayerX : MonoBehaviour
 {
     public GameObject plane;
