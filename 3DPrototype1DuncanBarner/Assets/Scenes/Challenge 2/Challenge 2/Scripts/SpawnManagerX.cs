@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* 
+ * Duncan Barner
+ * Challenge 2
+ * Spawns balls at random intervals at random x values
+ * 
+ */
 public class SpawnManagerX : MonoBehaviour
 {
     public GameObject[] ballPrefabs;

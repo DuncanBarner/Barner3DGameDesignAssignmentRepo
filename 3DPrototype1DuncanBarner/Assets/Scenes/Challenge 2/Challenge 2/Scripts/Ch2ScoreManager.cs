@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+/* 
+ * Duncan Barner
+ * Challenge 2
+ * Displays score. If score >=5, player wins
+ * 
+ */
 
 public class Ch2ScoreManager : MonoBehaviour
 {

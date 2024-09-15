@@ -1,6 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/* 
+ * Duncan Barner
+ * Challenge 2
+ * Spawns dogs when user presses spacebar
+ * 
+ */
 
 public class Ch2PlayerControllerX : MonoBehaviour
 {

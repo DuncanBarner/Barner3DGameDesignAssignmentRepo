@@ -1,6 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/* 
+ * Duncan Barner
+ * Challenge 2
+ * Collision detection script
+ * 
+ */
 
 public class DetectCollisionsX : MonoBehaviour
 {

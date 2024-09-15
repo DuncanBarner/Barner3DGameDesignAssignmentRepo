@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* 
+ * Duncan Barner
+ * Challenge 2
+ * Destroys ball/dog if they go out of bounds
+ * 
+ */
 public class DestroyOutOfBoundsX : MonoBehaviour
 {
     private float leftLimit = -30;
