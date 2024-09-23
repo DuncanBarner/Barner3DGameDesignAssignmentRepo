@@ -8,6 +8,9 @@ TagManager:
   - ScoreText
   - DisplayScoreText
   - HealthSystem
+  - Ground
+  - Obstacle
+  - SpawnManager
   layers:
   - Default
   - TransparentFX
