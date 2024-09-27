@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+		 Duncan Barner
+		 Challenge 3
+         PlayerController
+         Player controls and movement
+*/
 public class PlayerControllerX : MonoBehaviour
 {
     public bool gameOver;
@@ -17,10 +23,14 @@ public class PlayerControllerX : MonoBehaviour
     public AudioClip moneySound;
     public AudioClip explodeSound;
 
+    public GameObject groundBorder;
+    public AudioClip bounceSound;
+    public ScoreManager scoreManager;
 
     // Start is called before the first frame update
     void Start()
     {
+        playerRb = GetComponent<Rigidbody>();
         Physics.gravity *= gravityModifier;
         playerAudio = GetComponent<AudioSource>();
 
@@ -37,7 +47,9 @@ public class PlayerControllerX : MonoBehaviour
         {
             playerRb.AddForce(Vector3.up * floatForce);
         }
+        
     }
+
 
     private void OnCollisionEnter(Collision other)
     {
@@ -49,13 +61,20 @@ public class PlayerControllerX : MonoBehaviour
             gameOver = true;
             Debug.Log("Game Over!");
             Destroy(other.gameObject);
+            groundBorder.SetActive(false);
+            
         } 
+        else if (other.gameObject.CompareTag("Border"))
+        {
+            playerAudio.PlayOneShot(bounceSound, 3.0f);
+        }
 
         // if player collides with money, fireworks
         else if (other.gameObject.CompareTag("Money"))
         {
             fireworksParticle.Play();
             playerAudio.PlayOneShot(moneySound, 1.0f);
+            scoreManager.score++;
             Destroy(other.gameObject);
 
         }

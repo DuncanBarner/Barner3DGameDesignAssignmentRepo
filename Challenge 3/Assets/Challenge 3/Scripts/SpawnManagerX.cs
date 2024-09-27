@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+		 Duncan Barner
+		 SpawnManager
+		 Challenge 3
+		 Manages item spawning
+		 */
 public class SpawnManagerX : MonoBehaviour
 {
     public GameObject[] objectPrefabs;
@@ -13,7 +19,7 @@ public class SpawnManagerX : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("PrawnsObject", spawnDelay, spawnInterval);
+        InvokeRepeating("SpawnObjects", spawnDelay, spawnInterval);
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControllerX>();
     }
 

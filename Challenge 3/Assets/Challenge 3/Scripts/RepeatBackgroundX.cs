@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+		 Duncan Barner
+		 Challenge 3
+         RepeatBackground
+         Makes the background repeat
+*/
+
 public class RepeatBackgroundX : MonoBehaviour
 {
     private Vector3 startPos;
@@ -10,7 +17,7 @@ public class RepeatBackgroundX : MonoBehaviour
     private void Start()
     {
         startPos = transform.position; // Establish the default starting position 
-        repeatWidth = GetComponent<BoxCollider>().size.y / 2; // Set repeat width to half of the background
+        repeatWidth = GetComponent<BoxCollider>().size.x / 2; // Set repeat width to half of the background
     }
 
     private void Update()
