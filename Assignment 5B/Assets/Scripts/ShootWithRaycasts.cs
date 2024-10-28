@@ -3,6 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Duncan Barner
+ * ShootWithRaycasts.cs
+ * Assignment 5B
+ * Allows player to shoot objects with target script attached
+ */
 public class ShootWithRaycasts : MonoBehaviour
 {
 

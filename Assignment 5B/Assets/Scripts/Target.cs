@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Duncan Barner
+ * Target.cs
+ * Assignment 5B
+ * Handles target object, player can shoot target and destroy it
+ */
+
 public class Target : MonoBehaviour
 {
     public float health = 50f;
