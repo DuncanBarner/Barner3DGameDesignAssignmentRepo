@@ -12,7 +12,7 @@ public class Golem : Enemy
     {
         base.Awake();
         health = 120;
-        GameManager.instance.score += 2;
+        GameManager.Instance.score += 2;
         
     }  
 

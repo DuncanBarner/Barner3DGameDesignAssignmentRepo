@@ -1,0 +1,43 @@
+﻿using System.Collections;
+using UnityEngine;
+using System.Collections.Generic;
+
+
+public class Singleton<T>: MonoBehaviour where T : Singleton<T>
+    {
+    private static T instance;
+        
+    public static T Instance
+    {
+        get { return instance; }
+    }
+
+    public static bool IsInitialized
+    {
+        get { return instance != null;  }
+    }
+
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.Log("[Singleton.cs] Trying to instantiate a " +
+                "second instance of singleton class");
+
+        }
+        else
+        {
+            instance = (T)this;
+        }
+    }
+
+    protected virtual void OnDestroy()
+    {
+        //if this object is destroyed, make instance null so another can be created
+        if(instance == this)
+        {
+            instance = null;
+        }
+    }
+        
+    }
